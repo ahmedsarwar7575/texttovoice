@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(290deg, #78C091, #454942);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cont h1 span{
+    color: antiquewhite;
+}
+.cont h1{
+    font-size: 40px;
+    margin-bottom: 40PX;
+    color: aliceblue;
+
+}
+textarea{
+    outline: none;
+    border: none;
+    padding: 40px;
+    border-radius: 15PX;
+    background-color: rgba(255, 255, 255, 0.445);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2),
+    0 0 20px rgba(0, 0, 0, 0.15), 
+    0 0 25px rgba(0, 0, 0, 0.1);
+}
+button{
+    padding: 10px 50px;
+    outline: none;
+    border: none;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.2),
+    0 0 20px rgba(0, 0, 0, 0.15), 
+    0 0 25px rgba(0, 0, 0, 0.1);
+    background-color: #5b605742;
+     border-radius: 10px;
+     /* color: aliceblue; */
+     cursor: pointer;
+}
+.lower{
+    margin-top: 20px;
+}
+select{
+    margin-right: 30px;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.2),
+    0 0 20px rgba(0, 0, 0, 0.15), 
+    0 0 25px rgba(0, 0, 0, 0.1);
+    background-color: #5b605742;
+    /* color: aliceblue; */
+    padding: 0px 40px;
+    cursor: pointer;
+
+    height: 30px;
+    padding: 0px 50px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+}
+button:hover, select:hover{
+    background-color: rgba(255, 255, 255, 0.445) ;
+}
